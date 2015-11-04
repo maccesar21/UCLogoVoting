@@ -146,38 +146,6 @@
 	font-size: 30px;
 }
 
-#overlay {
-	background: #000;
-	bottom: 0;
-	display: none;
-	left: 0;
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 100%;
-	z-index: 99;
-}
-
-#lightbox {
-	background: #fff;
-	display: none;
-	height: 350px;
-	position: absolute;
-	left: 0px;
-	overflow: hidden; 
-	top: 0px;
-	z-index: 100;
-}
-
-#lightbox-voted {
-	background: #fff;
-	display: none;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	z-index: 100;
-}
-
 .voting-error {
 	background: #f00;
 	box-sizing: border-box;
