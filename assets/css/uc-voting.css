@@ -116,19 +116,18 @@
 }
 .logo.img4 {
 	background-position: -840px 0px;
-	color: rebeccapurple;
 }
 
 .check {
 	float: left;
 }
 .check {
-	background: url('http://www.esri.com/~/media/B067D6F546A24A2A9373F72F8C72A248') 0px 0px no-repeat;
+	background: url(//www.esri.com/~/media/B067D6F546A24A2A9373F72F8C72A248') 0px 0px no-repeat;
 	height: 20px;
   width: 20px
 }
 .check.selected {
-	background: url('http://www.esri.com/~/media/B067D6F546A24A2A9373F72F8C72A248') -19px 0px no-repeat;
+	background: url('//www.esri.com/~/media/B067D6F546A24A2A9373F72F8C72A248') -19px 0px no-repeat;
 }
 .choose {
 	float: right;
@@ -268,26 +267,26 @@ input[type="checkbox"] {
 }
 
 .st_facebook_large .stLarge {
-	background: url(http://www.esri.com/~/media/0828D2973097405B86783E3F1D4D1FF0) -5px -5px !important;
+	background: url('//www.esri.com/~/media/0828D2973097405B86783E3F1D4D1FF0') -5px -5px !important;
 }
 #facebook + p {
 	color: #305c9a;
 }
 
 .st_twitter_large .stLarge {
-	background: url(http://www.esri.com/~/media/0828D2973097405B86783E3F1D4D1FF0) -62px -5px no-repeat !important;
+	background: url('//www.esri.com/~/media/0828D2973097405B86783E3F1D4D1FF0') -62px -5px no-repeat !important;
 }
 #twitter + p {
 	color: #00aef0;
 }
 .st_linkedin_large .stLarge {
-	background: url(http://www.esri.com/~/media/0828D2973097405B86783E3F1D4D1FF0) -121px -5px no-repeat !important;
+	background: url('//www.esri.com/~/media/0828D2973097405B86783E3F1D4D1FF0') -121px -5px no-repeat !important;
 }
 #linkedin + p {
 	color: #0081b3;
 }
 .st_googleplus_large .stLarge {
-	background: url(http://www.esri.com/~/media/0828D2973097405B86783E3F1D4D1FF0) -178px -5px no-repeat !important;
+	background: url('//www.esri.com/~/media/0828D2973097405B86783E3F1D4D1FF0') -178px -5px no-repeat !important;
 }
 #google + p {
 	color: #d94d30;
@@ -375,17 +374,17 @@ input[type="checkbox"] {
 }
 
 .sm-logo-1 {
-	background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) 0px 5px no-repeat;
+	background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') 0px 5px no-repeat;
 	margin:0 0 0 45px;
 }
 .sm-logo-2 {
-	background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -75px 0px no-repeat;
+	background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -75px 0px no-repeat;
 }
 .sm-logo-3 {
-	background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -150px 0px no-repeat;
+	background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -150px 0px no-repeat;
 }
 .sm-logo-4 {
-	background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -225px 3px no-repeat;
+	background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -225px 3px no-repeat;
 }
 
 .soc {
@@ -727,19 +726,19 @@ and (orientation : landscape) {
 		margin: 0 5px 0 5px !important;
 	}
 	.slide1 {
-		background: url(http://www.esri.com/~/media/B425FBC7BBFE479188F73AEC58384BD0) no-repeat;
+		background: url('//www.esri.com/~/media/B425FBC7BBFE479188F73AEC58384BD0') no-repeat;
 		width: 100%;
 	}
 	.slide2 {
-		background: url(http://www.esri.com/~/media/3815AA0DD7444D7C9D306E7AB0135E9D) no-repeat;
+		background: url('//www.esri.com/~/media/3815AA0DD7444D7C9D306E7AB0135E9D') no-repeat;
 		width: 100%;
 	}
 	.slide3 {
-		background: url(http://www.esri.com/~/media/86977C1B988A4C099393B61F2E75CCF0) no-repeat;
+		background: url('//www.esri.com/~/media/86977C1B988A4C099393B61F2E75CCF0') no-repeat;
 		width: 100%;
 	}
 	.slide4 {
-		background: url(http://www.esri.com/~/media/3EF2401FE53441A39C6D4055A6E55A3D) no-repeat;
+		background: url('//www.esri.com/~/media/3EF2401FE53441A39C6D4055A6E55A3D') no-repeat;
 		width: 100%;
 	}
 	.logo.img1 {
@@ -797,16 +796,16 @@ and (orientation : landscape) {
     margin: 0 0 0 50px;
 	}
 	.sm-logo-1 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -6px 0px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -6px 0px no-repeat;
 	}
 	.sm-logo-2 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -84px 0px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -84px 0px no-repeat;
 	}
 	.sm-logo-3 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -160px 0px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -160px 0px no-repeat;
 	}
 	.sm-logo-4 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -238px 5px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -238px 5px no-repeat;
 	}
 	.sm-uc-logo {
 		float: left;
@@ -924,19 +923,19 @@ and (orientation: portrait) {
   }
 	
 	.slide1 {
-		background: url(http://www.esri.com/~/media/B425FBC7BBFE479188F73AEC58384BD0) no-repeat;
+		background: url('//www.esri.com/~/media/B425FBC7BBFE479188F73AEC58384BD0') no-repeat;
 		width: 100%;
 	}
 	.slide2 {
-		background: url(http://www.esri.com/~/media/3815AA0DD7444D7C9D306E7AB0135E9D) no-repeat;
+		background: url('//www.esri.com/~/media/3815AA0DD7444D7C9D306E7AB0135E9D') no-repeat;
 		width: 100%;
 	}
 	.slide3 {
-		background: url(http://www.esri.com/~/media/86977C1B988A4C099393B61F2E75CCF0) no-repeat;
+		background: url('//www.esri.com/~/media/86977C1B988A4C099393B61F2E75CCF0') no-repeat;
 		width: 100%;
 	}
 	.slide4 {
-		background: url(http://www.esri.com/~/media/3EF2401FE53441A39C6D4055A6E55A3D) no-repeat;
+		background: url('//www.esri.com/~/media/3EF2401FE53441A39C6D4055A6E55A3D') no-repeat;
 		width: 100%;
 	}
 
@@ -1010,16 +1009,16 @@ and (orientation: portrait) {
 		bottom:-5px;
 	}
 	.sm-logo-1 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -6px 0px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -6px 0px no-repeat;
 	}
 	.sm-logo-2 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -84px 0px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -84px 0px no-repeat;
 	}
 	.sm-logo-3 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -160px 0px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -160px 0px no-repeat;
 	}
 	.sm-logo-4 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -238px 5px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -238px 5px no-repeat;
 	}
 	.sm-uc-logo {
 		float: left;
@@ -1138,19 +1137,19 @@ and (max-width : 568px) {
   }
 	
 	.slide1 {
-		background: url(http://www.esri.com/~/media/B425FBC7BBFE479188F73AEC58384BD0) no-repeat;
+		background: url('//www.esri.com/~/media/B425FBC7BBFE479188F73AEC58384BD0') no-repeat;
 		width: 100%;
 	}
 	.slide2 {
-		background: url(http://www.esri.com/~/media/3815AA0DD7444D7C9D306E7AB0135E9D) no-repeat;
+		background: url('//www.esri.com/~/media/3815AA0DD7444D7C9D306E7AB0135E9D') no-repeat;
 		width: 100%;
 	}
 	.slide3 {
-		background: url(http://www.esri.com/~/media/86977C1B988A4C099393B61F2E75CCF0) no-repeat;
+		background: url('//www.esri.com/~/media/86977C1B988A4C099393B61F2E75CCF0') no-repeat;
 		width: 100%;
 	}
 	.slide4 {
-		background: url(http://www.esri.com/~/media/3EF2401FE53441A39C6D4055A6E55A3D) no-repeat;
+		background: url('//www.esri.com/~/media/3EF2401FE53441A39C6D4055A6E55A3D') no-repeat;
 		width: 100%;
 	}
 
@@ -1205,16 +1204,16 @@ and (max-width : 568px) {
 		width: 15%;
 	}
 	.sm-logo-1 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -6px 0px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -6px 0px no-repeat;
 	}
 	.sm-logo-2 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -84px 0px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -84px 0px no-repeat;
 	}
 	.sm-logo-3 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -160px 0px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -160px 0px no-repeat;
 	}
 	.sm-logo-4 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -238px 5px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -238px 5px no-repeat;
 	}
 	.sm-uc-logo {
 		float: left;
@@ -1291,7 +1290,7 @@ and (orientation: landscape) {
 		overflow: hidden;
 	}
 	.uc-banner {
-		background: #f7f7f7 url(http://www.esri.com/~/media/2B093C860120405C98C1DAA89E8716BF) top center no-repeat;
+		background: #f7f7f7 url('//www.esri.com/~/media/2B093C860120405C98C1DAA89E8716BF') top center no-repeat;
 		height: 200px !important;
 		text-align: center;
 		width: 100%;
@@ -1346,19 +1345,19 @@ and (orientation: landscape) {
   }
 	
 	.slide1 {
-		background: url(http://www.esri.com/~/media/B425FBC7BBFE479188F73AEC58384BD0) no-repeat;
+		background: url('//www.esri.com/~/media/B425FBC7BBFE479188F73AEC58384BD0') no-repeat;
 		width: 100%;
 	}
 	.slide2 {
-		background: url(http://www.esri.com/~/media/3815AA0DD7444D7C9D306E7AB0135E9D) no-repeat;
+		background: url('//www.esri.com/~/media/3815AA0DD7444D7C9D306E7AB0135E9D') no-repeat;
 		width: 100%;
 	}
 	.slide3 {
-		background: url(http://www.esri.com/~/media/86977C1B988A4C099393B61F2E75CCF0) no-repeat;
+		background: url('//www.esri.com/~/media/86977C1B988A4C099393B61F2E75CCF0') no-repeat;
 		width: 100%;
 	}
 	.slide4 {
-		background: url(http://www.esri.com/~/media/3EF2401FE53441A39C6D4055A6E55A3D) no-repeat;
+		background: url('//www.esri.com/~/media/3EF2401FE53441A39C6D4055A6E55A3D') no-repeat;
 		width: 100%;
 	}
 
@@ -1413,16 +1412,16 @@ and (orientation: landscape) {
 		width: 15%;
 	}
 	.sm-logo-1 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -6px 0px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -6px 0px no-repeat;
 	}
 	.sm-logo-2 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -84px 0px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -84px 0px no-repeat;
 	}
 	.sm-logo-3 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -160px 0px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -160px 0px no-repeat;
 	}
 	.sm-logo-4 {
-		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -238px 5px no-repeat;
+		background: url('//www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80') -238px 5px no-repeat;
 	}
 	.sm-uc-logo {
 		float: left;
