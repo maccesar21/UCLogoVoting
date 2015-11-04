@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+ 
+  <meta charset="UTF-8">
+  
+  <title>User Conference</title>
+		
+	<link rel="stylesheet" href="http://webapps-cdn-dev.esri.com/CDN/page-templates/events/uc-vote/css/main.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="http://webapps-cdn-dev.esri.com/CDN/page-templates/events/uc-vote/css/uc-voting.css">
+	<script src="http://webapps-cdn-dev.esri.com/CDN/page-templates/events/uc-vote/js/uc-voting.js"></script>
+</head>
+
+<body>
+    
+		<div class="uc-banner">
+
+			<div class="container">
+					<div class="grid-100 header">
+						<h1>ESRI USER CONFERENCE</h1>
+						<p>July 20-24, 2015 | San Diego Convention Center</p>		
+					</div>
+					<div class="grid-25 mobile-50">
+						<div class="logo-box">
+							<div class="slide-btn prev" data-direction="prev"></div>
+							<div class="slide-btn next" data-direction="next"></div>
+							<div class="logo slide1" data-slide="1"></div>
+							<div class="gray-bar">
+								<div class="choose-wrap">
+									<div class="check"></div>
+									<div class="choose" data-selection="1">CHOOSE</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="grid-25 mobile-50">
+						<div class="logo-box mar-bot-25">
+							<div class="slide-btn prev" data-direction="prev"></div>
+							<div class="slide-btn next" data-direction="next"></div>
+							<div class="logo slide2" data-slide="2">
+							</div>
+							<div class="gray-bar">
+								<div class="choose-wrap">
+									<div class="check"></div>
+									<div class="choose" data-selection="2">CHOOSE</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="grid-25 mobile-50">
+						<div class="logo-box mar-bot-25">
+							<div class="slide-btn prev" data-direction="prev"></div>
+							<div class="slide-btn next" data-direction="next"></div>
+							<div class="logo slide3" data-slide="3">
+							</div>
+							<div class="gray-bar">
+								<div class="choose-wrap">
+									<div class="check"></div>
+									<div class="choose" data-selection="3">CHOOSE</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="grid-25 mobile-50">
+						<div class="logo-box">
+							<div class="slide-btn prev" data-direction="prev"></div>
+							<div class="slide-btn next" data-direction="next"></div>
+							<div class="logo slide4" data-slide="4">
+							</div>
+							<div class="gray-bar">
+								<div class="choose-wrap">
+									<div class="check"></div>
+									<div class="choose" data-selection="4">CHOOSE</div>
+									<div class="clear"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<br>
+					<div class="grid-100"><h3>Vote for the 2015 Esri UC Look Novermber 3 - 18. Vote Today! Vote Often!</h3></div>
+			</div><!-- end container -->
+
+		</div><!-- end uc-banner -->
+
+		<div class="uc-content">
+
+			<div class="container">
+				<div class="grid-100">
+					<h2>Be the First. Registration for the Esri UC <br> Opens on December 9<sup>th</sup></h2>
+					<p>Don't miss out on the biggest gathering of geogeeks and cartographer kingpins next summer. 
+					<br> Sign up an we'll send you all the information you need to join us in San Diego.</p>
+					<a href="#" class="cta-button ctaButton">Contact Me When Registration Opens</a>
+				</div>
+			</div>
+		</div><!-- end uc-content -->
+
+		<div id="overlay"></div>
+		<div id="lightbox">
+			<div class="container">
+				<div id="form-header">
+					<div id="title" class="grid-95"><h2>Cast Your Vote</h2></div>
+					<div class="close-win" class="grid-5">X</div>
+					<div class="clear"></div>
+				</div>
+				<div id="form-content">
+					<div id="l-col" class="grid-70">
+						<div class="grid-50"><p>First Name</p><p><input id="fname"  name="fname" type="text" tabindex="1"></p></div>
+						<div class="grid-50"><p>Last Name</p><p><input id="lname"  name="lname" type="text" tabindex="2"></p></div>
+						<div class="grid-50"><p>Email</p><p><input id="email"  name="email" type="text" tabindex="3"></p></div>
+						<div class="grid-50 chk"><p><input id="offers" name="offers" type="checkbox" tabindex="4" checked>I would like to receive Esri offers</p></div>
+						<div class="clear"></div>
+						<input id="vote" type="button" tabindex="5" value="Vote" />
+					</div>
+					<div id="r-col" class="grid-30">
+						<p>Your Selection</p>
+						<div id="logo-selected" class="logo-selected-1"></div>
+						<a href="#">Change Your Selection</a>
+					</div>
+					<div class="clear"></div>
+				</div><!-- end form-content -->
+				
+				<!-- vote confirmation -->
+				<div id="vote-confirmation">
+					<div class="container">
+					<div class="share grid-50">
+					<h3>Share</h3>
+					<div class="grid-25 icon">
+						<div id="facebook" class="social"></div>
+						<p>Facebook</p>
+					</div>
+					<div class="grid-25 icon">
+						<div id="twitter" class="social"></div>
+						<p>Twitter</p>
+					</div>
+					<div class="grid-25 icon">
+						<div id="linkedin" class="social"></div>
+						<p>Linkedin</p>
+					</div>
+					<div class="grid-25 icon">
+						<div id="google" class="social"></div>
+						<p>Google+</p>
+					</div>
+					<div class="clear"></div>
+					<p class="vote-info">Check back on Dec 9th 2014 for the winner and register for the 2015 Esri Internation User Conference.</p>
+					</div>
+					<div class="leaderboard grid-50">
+						<h3>Leaderboard</h3>
+						<div class="bar-graph">
+								<div class="bar"><p>17,256</p></div>
+								<div class="bar sel-bar"><p>17,256</p></div>
+								<div class="bar"><p>17,256</p></div>
+								<div class="bar"><p>17,256</p></div>
+							<div class="clear"></div>
+						</div>
+						<div class="leaderboard-logos">
+							<div class="sm-uc-logo sm-logo-1"></div>
+							<div class="sm-uc-logo sm-logo-2"></div>
+							<div class="sm-uc-logo sm-logo-3"></div>
+							<div class="sm-uc-logo sm-logo-4"></div>
+							<div class="clear"></div>
+						</div>
+					</div>
+					</div>
+				</div><!-- end vote-confirmation -->
+				
+				<!-- error dialog
+				<div class="share clearfix">
+						<div class="grid-25 icon">
+							<a href="#" id="facebook" class="social"></a>
+							<p>Facebook</p>
+						</div>
+						<div class="grid-25 icon">
+							<a href="#" id="twitter" class="social"></a>
+							<p>Twitter</p>
+						</div>
+						<div class="grid-25 icon">
+							<a href="#" id="linkedin" class="social"></a>
+							<p>Linkedin</p>
+						</div>
+						<div class="grid-25 icon">
+							<a href="#" id="google" class="social"></a>
+							<p>Google+</p>
+						</div>
+						<div class="clear"></div>
+						<p class="error-info">Check back on Dec 9th 2014 for the winner and register for the 2015 Esri Internation User Conference.</p>
+						<div class="clear"></div>
+				</div> end error dialog -->
+				
+			</div><!-- end container -->
+		</div><!-- end lightbox -->
+
+		<!--<div id="lightbox-voted">
+			<div class="container">
+				<div id="lightbox-vote-header">
+					<div id="title" class="grid-95"><h2>Thanks for the vote, spread the word.</h2></div>
+					<div class="close-win" class="grid-5">X</div>
+					<div class="clear"></div>
+				</div>
+				<div class="share grid-50">
+					<h3>Share</h3>
+					<div class="grid-25 icon">
+						<div id="facebook" class="social"></div>
+						<p>Facebook</p>
+					</div>
+					<div class="grid-25 icon">
+						<div id="twitter" class="social"></div>
+						<p>Twitter</p>
+					</div>
+					<div class="grid-25 icon">
+						<div id="linkedin" class="social"></div>
+						<p>Linkedin</p>
+					</div>
+					<div class="grid-25 icon">
+						<div id="google" class="social"></div>
+						<p>Google+</p>
+					</div>
+					<div class="clear"></div>
+					<p class="vote-info">Check back on Dec 9th 2014 for the winner and register for the 2015 Esri Internation User Conference.</p>
+				</div>
+				<div class="leaderboard grid-50">
+					<h3>Leaderboard</h3>
+					<div class="bar-graph">
+							<div class="bar"><p>17,256</p></div>
+							<div class="bar sel-bar"><p>17,256</p></div>
+							<div class="bar"><p>17,256</p></div>
+							<div class="bar"><p>17,256</p></div>
+						<div class="clear"></div>
+					</div>
+					<div class="leaderboard-logos">
+						<div class="sm-uc-logo sm-logo-1"></div>
+						<div class="sm-uc-logo sm-logo-2"></div>
+						<div class="sm-uc-logo sm-logo-3"></div>
+						<div class="sm-uc-logo sm-logo-4"></div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+
+		<!--<div id="lightbox-error">
+			<div class="container">
+				<div id="lightbox-error-header">
+					<div id="title-try-again">
+						<div class="grid-100">
+							<h2>This email has already been registered for one vote today. Try again tomorrow, in the meantime get other to vote too.</h2>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="share clearfix">
+					<div class="grid-100">
+					<div class="grid-25 icon">
+						<a href="#" id="facebook" class="social"></a>
+						<p>Facebook</p>
+					</div>
+					<div class="grid-25 icon">
+						<a href="#" id="twitter" class="social"></a>
+						<p>Twitter</p>
+					</div>
+					<div class="grid-25 icon">
+						<a href="#" id="linkedin" class="social"></a>
+						<p>Linkedin</p>
+					</div>
+					<div class="grid-25 icon">
+						<a href="#" id="google" class="social"></a>
+						<p>Google+</p>
+					</div>
+					<div class="clear"></div>
+					<p class="error-info">Check back on Dec 9th 2014 for the winner and register for the 2015 Esri Internation User Conference.</p>
+					</div>
+				</div>
+			</div>
+		</div>-->
+</body>
+
+</html>

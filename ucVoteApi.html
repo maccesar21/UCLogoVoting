@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="http://webapps-cdn.esri.com/CDN/jslibs/underscore-min.js"></script>
+    
+    <script type="text/javascript">
+
+        $.post('http://localhost/WebOpsApi/Applications/UCVoting/CastVote',
+            {
+                payload: "{logoName : 'dan',firstName : 'Daniel',lastName : 'Lewis',email : 'daniel_lewis@esri.com', SendOffers : true}"
+            },
+            function(results) {
+                var voteCounts = results.data.voteCount;
+
+                var totals = voteCounts.map(function (voteCount) {
+                    return parseInt(voteCount.votes);
+                });
+
+                var min = _.min(totals),
+                    max = _.max(totals),
+                    variance = max - min;
+
+                voteCounts.forEach(function(voteCount) {
+                    var pct = (voteCount.votes - min) / variance;
+
+                    //Lookup the div to set the height on
+                    $("bar-" + voteCount.logoName).css("height", pct + '%');
+                });
+            });
+
+    </script>
+
+</body>
+</html>

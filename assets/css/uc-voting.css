@@ -1,0 +1,1593 @@
+
+/***********
+---BANNER---
+***********/
+
+.uc-banner .uc-header {
+	margin: 10px 0 30px 0;
+}
+
+#banner {
+	background: #f7f7f7 url(http://www.esri.com/~/media/2B093C860120405C98C1DAA89E8716BF) top center no-repeat !important;
+	height: 610px;
+	text-align: center;
+	width: 100%;
+}
+
+.uc-banner h1, .uc-banner h2, .uc-banner h3, .uc-banner p {
+	color: #fff;
+}
+.uc-banner h1 {
+	font-size: 48px;
+}
+.uc-banner h3 {
+	font-size: 20px;
+	margin: 20px auto;
+	width: 770px;
+}
+
+.uc-banner p {
+	margin: 20px auto;
+	text-align: center;
+	width: 80%;
+}
+
+.logos-wrapper {
+	/*border: thin solid cyan;*/
+	margin: auto auto;
+	padding: 0px;
+	position: relative;
+	width: 1180px;
+}
+.logo-box {
+	background: #fff;
+	border-radius: 1px;
+	float: left;
+	padding: 0px;
+	margin: 0 7px;
+	overflow: hidden;
+	position: relative;
+	width: 280px;
+}
+
+.gray-bar {
+	background: #eaeaea;
+	width: 100%;
+}
+.gray-bar:hover {
+	cursor: pointer;
+}
+
+.gray-bar:hover .check {
+	background: url(http://www.esri.com/~/media/B067D6F546A24A2A9373F72F8C72A248) -19px 0px no-repeat;
+}
+.gray-bar:hover .choose {
+	color: #2a7433;
+}
+
+.logo {
+	height: 230px;
+	text-align: center;
+	z-index: 0;
+}
+#logo1 {
+	margin-left: 9px;
+}
+.logo img {
+	width: 100%;
+}
+
+.slide1 {
+	background: url(http://www.esri.com/~/media/ACA74CE045664D5DA0DD4DC2B533745F) no-repeat;
+	width: 100%;
+}
+.slide2 {
+	background: url(http://www.esri.com/~/media/F2E5F4DA79F540BF902D62819C7557FA) no-repeat;
+	width: 100%;
+}
+.slide3 {
+	background: url(http://www.esri.com/~/media/3467E9BAE9A9448BB3E2156A37E0B4FC) no-repeat;
+	width: 100%;
+}
+.slide4 {
+	background: url(http://www.esri.com/~/media/2FE29D1012D746F19850CCC836B5BCBB) no-repeat;
+	width: 100%;
+}
+
+.logo.img1 {
+	background-position: 0px 0px;
+}
+.logo.img2 {
+	background-position: -280px 0px;
+}
+.logo.img3 {
+	background-position: -560px 0px;
+}
+.logo.img4 {
+	background-position: -840px 0px;
+}
+
+.check {
+	float: left;
+}
+.check {
+	background: url(http://www.esri.com/~/media/B067D6F546A24A2A9373F72F8C72A248) 0px 0px no-repeat;
+	height: 20px;
+  width: 20px
+}
+.check.selected {
+	background: url(http://www.esri.com/~/media/B067D6F546A24A2A9373F72F8C72A248) -19px 0px no-repeat;
+}
+.choose {
+	float: right;
+	font-size: 16px;
+}
+.choose-wrap {
+	margin: auto auto;
+	padding: 13px 0;
+	width: 25%;
+}
+
+.uc-content {
+	margin: 75px 0;
+	text-align: center;
+}
+
+.uc-content h2 {
+	font-size: 30px;
+}
+
+#overlay {
+	background: #000;
+	bottom: 0;
+	display: none;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+#lightbox {
+	background: #fff;
+	display: none;
+	height: 350px;
+	position: absolute;
+	left: 0px;
+	overflow: hidden; 
+	top: 0px;
+	z-index: 100;
+}
+
+#lightbox-voted {
+	background: #fff;
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 100;
+}
+
+.voting-error {
+	background: #f00;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 32px;
+	left: 25%;
+	padding: 50px;
+	position: absolute;
+	text-align: center;
+	top: 25%;
+	width: 25%;
+	z-index: 100;
+}
+
+#title {
+	padding: 0px 0 0 25px;
+}
+#title h2 {
+	margin-top: 17px !important;
+}
+
+#title-try-again {
+	margin: auto auto;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+.close-win {
+	font-size: 25px;
+	padding: 25px 15px;
+}
+
+.close-win:hover {
+	color: #f00;
+	cursor: pointer;
+}
+#title, #close-win {
+	float: left;
+}
+
+#form-header {
+	border-bottom: thin solid #eaeaea;
+	position: relative;
+}
+
+#lightbox-vote-header {
+	border-bottom: thin solid #eaeaea;
+	position: relative;
+}
+
+#lightbox-error-header {
+	position: relative;
+}
+
+#error-header {
+	position: relative;
+}
+
+.lbl {
+	float: left;
+	margin: 0 0 0 40px;
+}
+
+input[type="text"] {
+	min-height: 20px;
+	margin-bottom: 15px;
+	width: 250px;
+}
+
+input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+#form-content {
+	display: none;
+	margin: 25px 0;
+}
+
+#l-col {
+	border-right: thin solid #eaeaea;
+	padding: 0 0 0 25px;
+	box-sizing: border-box;
+}
+
+.chk {
+	margin-top: 23px;
+}
+
+#vote {
+	background: #237fc3;
+	border: none;
+	color: #fff;
+	float: right;
+	font-size: 16px;
+	height: 35px;
+	margin-right: 40px;
+	width: 130px;
+}
+
+#vote:hover {
+	background: #0565ac;
+	cursor: pointer;
+}
+
+#r-col {
+	text-align: center;
+}
+
+#r-col a {
+	color: #2a7433;
+	text-decoration: none;
+}
+
+#r-col a:hover {
+	color: #2a7433;
+	text-decoration: underline;
+}
+
+#logo-selected img {
+	height: auto;
+	width: 100%;
+}
+
+#logo-selected {
+	height: 182px;
+	margin: auto auto;
+	padding: 0;
+	overflow: hidden;
+	width: 195px;
+}
+
+.logo-selected-1 {
+	background: url(http://www.esri.com/~/media/CB2F3C1FBCA2487186B7636C5BA18392) -40px -30px no-repeat;
+}
+.logo-selected-2 {
+	background: url(http://www.esri.com/~/media/3988FBC2493249A4BB76A73049DBEF9C) -40px -30px no-repeat;
+}
+.logo-selected-3 {
+	background: url(http://www.esri.com/~/media/5DFC0E249D42401DAA34E13E61C9042E) -40px -32px no-repeat;
+}
+.logo-selected-4 {
+	background: url(http://www.esri.com/~/media/14E171E1AA9146C6AEFF37DF7580DE68) -40px -17px no-repeat;
+}
+
+.slide-btn {
+	height: 230px;
+	width: 35px;
+	opacity: .30;
+	position: relative;
+}
+.slide-btn:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+.prev-slide {
+	background: url(http://www.esri.com/~/media/40A55F53C62F4E7197B854008355E658) center center no-repeat;
+	background-color: rgba(247,247,247,0);
+	left: 0px;
+	position: absolute;
+	top: 0;
+	z-index: 99;
+}
+.prev-slide:hover {
+	background-color: rgba(247,247,247,.70);
+}
+
+.next-slide {
+	background: url(http://www.esri.com/~/media/A8303A54735D46E5BA41BB06B7E7188B) center center no-repeat;
+	background-color: rgba(247,247,247,0);
+	float: right;
+	position: absolute;
+	right: 0px;
+	top: 0;
+	z-index: 99;
+}
+.next-slide:hover {
+	background-color: rgba(247,247,247,.70);
+}
+
+.cta-button {
+	background: #f89927;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	margin: auto auto;
+	margin-top: 25px;
+	padding: 15px 0px;
+	text-decoration: none;
+	width: 70%;
+}
+
+.cta-button:hover {
+  background: #F36F20;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*SOCIAL MEDIA ICONS*/
+
+.icon p {
+	font-size: 12px;
+	text-align: center;
+}
+
+.social {
+	display: block;
+	height: 60px;
+	margin: auto auto;
+	width: 60px;
+}
+
+.stButton .stLarge {
+	display: inline-block;
+	height: 50px !important;
+	position: relative;
+	width: 50px !important;
+}
+
+.soc {
+	margin: 0 19px !important;
+}
+
+.st_facebook_large .stLarge {
+	background: url(http://www.esri.com/~/media/0828D2973097405B86783E3F1D4D1FF0) -5px -5px !important;
+}
+#facebook + p {
+	color: #305c9a;
+}
+
+.st_twitter_large .stLarge {
+	background: url(http://www.esri.com/~/media/0828D2973097405B86783E3F1D4D1FF0) -62px -5px no-repeat !important;
+}
+#twitter + p {
+	color: #00aef0;
+}
+.st_linkedin_large .stLarge {
+	background: url(http://www.esri.com/~/media/0828D2973097405B86783E3F1D4D1FF0) -121px -5px no-repeat !important;
+}
+#linkedin + p {
+	color: #0081b3;
+}
+.st_googleplus_large .stLarge {
+	background: url(http://www.esri.com/~/media/0828D2973097405B86783E3F1D4D1FF0) -178px -5px no-repeat !important;
+}
+#google + p {
+	color: #d94d30;
+}
+
+.share h3, .leaderboard h3 {
+	padding: 0 0 15px 15px;
+	margin: 0;
+}
+
+.share {
+	border-right: thin solid #eaeaea;
+	margin: 25px auto;
+	padding: 0 50px;
+	width: 50%;
+}
+
+.err-disp {
+	margin: 25px auto;
+	padding: 0 50px;
+	width: 50%;
+}
+
+.leaderboard {
+	margin-bottom: 25px;
+	margin-top: 25px;
+	position: relative;
+}
+
+.vote-info {
+	font-size: 14px;
+	padding: 15px 0 0 15px;
+}
+
+.error-info {
+	font-size: 14px;
+  padding: 15px 10px 20px 15px;
+	text-align: center;
+}
+
+.error-message {
+	font-size: 14px;
+	padding: 5px 15px 15px 15px;
+	text-align: center;
+}
+
+.bar {
+	background: #eaeaea;
+	float: left;
+	height: 100px;
+	margin: 5px 58px;
+	width: 12%;
+}
+
+.sel-bar {
+	background: #008ec3 !important;
+}
+.sel-bar p {
+	color: #fff !important;
+}
+
+.bar p {
+	bottom: 0px;
+	font-size: 14px;
+	left: 6px;
+	position: absolute;
+}
+
+.bar-graph {
+	height: 110px;
+	margin: auto auto;
+	position: relative;
+}
+
+.leaderboard-logos {
+	margin: auto auto;
+	position: relative;
+}
+
+.sm-uc-logo {
+	float: left;
+	height: 75px;
+	width: 75px;
+	margin:7px 0 0 15px;
+}
+
+.sm-logo-1 {
+	background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) 0px 5px no-repeat;
+	margin:0 0 0 45px;
+}
+.sm-logo-2 {
+	background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -75px 0px no-repeat;
+}
+.sm-logo-3 {
+	background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -150px 0px no-repeat;
+}
+.sm-logo-4 {
+	background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -225px 3px no-repeat;
+}
+
+.soc {
+	margin: 0 28px;
+}
+
+#vote-confirmation {
+	display: none;
+}
+
+#error-display {
+	display: block;
+}
+
+#bar1,#bar2,#bar3,#bar4 {
+	position: absolute;
+}
+
+#bar1 {
+	left:0;
+	bottom:-5px;
+}
+#bar2 {
+	left:85px;
+	bottom:-5px;
+}
+#bar3 {
+	left:175px;
+	bottom:-5px;
+}
+#bar4 {
+	left:265px;
+	bottom:-5px;
+}
+
+/***************
+-- FORM VALID --
+***************/
+.err {
+	background-color: rgba(255,0,0,0.2);
+}
+
+/***************
+---- TABLET ----
+***************/
+
+/* iPads (Landscape) ----------- */
+@media only screen 
+and (min-width : 0px) 
+and (max-width : 1024px) 
+and (orientation : landscape) {
+	#navigation {
+		height: 52px !important;
+		padding-bottom: 0px !important;
+		padding-top: 15px !important;
+	}
+	.logos-wrapper {
+		/*border: thin solid cyan;*/
+		margin: auto auto;
+		padding: 0px;
+		position: relative;
+		width: 960px;
+  }
+	.logo-box {
+		background: #fff;
+		border-radius: 1px;
+		float: left;
+		padding: 0px;
+		margin: 0 7px;
+		overflow: hidden;
+		position: relative;
+		width: 225px;
+	}
+	#logo1 {
+		margin-left: 11px;
+	}
+	.slide-btn {
+		display: none;
+	}
+	#geogeek .page-content {
+		display: block;
+		margin-left: 0px !important;
+	}
+	.cta-button {
+		background: #f89927;
+		color: #fff;
+		display: block;
+		font-size: 14px;
+		margin: auto auto;
+		margin-top: 25px;
+		padding: 15px 0px;
+		text-decoration: none;
+		width: 60%;
+	}
+	.uc-banner h1 {
+		font-size: 48px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.uc-banner h3 {
+		font-size: 24px;
+		margin: 10px auto;
+		width: 90%;
+	}
+	.logo.img1 {
+		background-position: -19px 0px;
+	}
+	.logo.img2 {
+		background-position: -299px 0px;
+	}
+	.logo.img3 {
+		background-position: -560px 0px;
+	}
+	.logo.img4 {
+		background-position: -859px 0px;
+	}
+}
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-width : 0px) 
+and (max-width : 1024px) 
+and (orientation : portrait) {
+	#navigation {
+		height: 52px !important;
+		padding-bottom: 0px !important;
+		padding-top: 15px !important;
+	}
+	.logos-wrapper {
+		/*border: thin solid cyan;*/
+		margin: auto auto;
+		margin-left: -10px;
+		padding: 0px;
+		position: relative;
+		width: 752px !important;
+  }
+	.logo-box {
+		background: #fff;
+		border-radius: 1px;
+		float: left;
+		padding: 0px;
+		margin: 0 2px;
+		overflow: hidden;
+		position: relative;
+		width: 185px;
+	}
+	#geogeek .page-content {
+		display: block;
+		margin-left: 0px !important;
+	}
+	#overlay {
+		height:1050px;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+	}
+	.uc-banner h1 {
+		font-size: 48px;
+		margin-top: 10px;
+		margin-bottom: 0px;
+	}
+	.uc-banner h3 {
+		font-size: 20px;
+		margin: 10px auto;
+		width: 90%;
+	}
+	.choose-wrap {
+		margin: auto auto;
+		padding: 10px 0;
+		width: 33% !important;
+	}
+	.logo.img1 {
+		background-position: -46px 0px;
+	}
+	.logo.img2 {
+		background-position: -325px 0px;
+	}
+	.logo.img3 {
+		background-position: -570px 0px;
+	}
+	.logo.img4 {
+		background-position: -890px 0px;
+	}
+	.cta-button {
+		background: #f89927;
+		color: #fff;
+		display: block;
+		font-size: 14px;
+		margin: auto auto;
+		margin-top: 25px;
+		padding: 15px 0px;
+		text-decoration: none;
+		width: 70%;
+	}
+	input[type="text"] {
+		min-height: 20px;
+		margin-bottom: 15px;
+		width: 215px;
+	}
+	#l-col {
+		border-right: thin solid #eaeaea;
+		padding: 0 0 0 10px;
+		box-sizing: border-box;
+	}
+	#logo1 {
+		margin: 0px;
+	}
+	.slide-btn {
+		height: 130px;
+		display: none;
+	}
+	.bar {
+		background: #eaeaea;
+		float: left;
+		height: 100px;
+		margin: 5px 15px;
+		width: 12%;
+	}
+	.sm-uc-logo {
+		float: left;
+		height: 75px;
+		width: 75px;
+		margin: 7px 0 0 9px;
+	}
+	.soc {
+		margin: 0 7px !important;
+	}
+	.ui-dialog {
+		margin-left: 0px !important;
+	}
+}
+
+
+/***************
+---- MOBILE ----
+***************/
+
+
+/*----------------
+------IPHONE------
+----------------*/
+@media only screen 
+and (min-width : 560px) 
+and (max-width : 568px)
+and (orientation : landscape) {
+	.logos-wrapper {
+		margin: auto auto !important;
+		padding: 0px;
+		position: relative;
+		width: 500px !important;
+  }
+	.logo-box {
+		background: #fff;
+		border-radius: 1px;
+		float: left;
+		padding: 0px;
+		margin: 0 2px;
+		overflow: hidden;
+		position: relative;
+		width: 195px !important;
+	}
+	.choose-wrap {
+		margin: auto auto;
+		padding: 10px 0;
+		width: 35% !important;
+	}
+	#overlay {
+		height:1250px;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+	}
+	#lightbox {
+		height: 770px !important;
+		top: 92px !important;
+		width: 95% !important;
+	}
+	input[type="text"] {
+		min-height: 25px;
+		margin-bottom: 15px;
+		width: 290px;
+	}
+	.mar-bot-25 {
+		margin-bottom: 25px;
+	}
+  br {
+		display: none !important;
+	}
+	.uc-banner h3 {
+		font-size: 16px !important;
+		margin-top: 25px !important;
+		padding: 0 20px !important;
+	}
+	h3.sm-sub-header {
+		font-size: 24px !important;
+	}
+	.uc-content {
+		margin: 30px 0;
+		text-align: center;
+	}
+	.uc-banner .uc-header {
+		margin: 30px 0;
+	}
+	.uc-banner h1 {
+		font-size: 28px;
+		margin-bottom: 35px;
+	}
+	.uc-banner p {
+		font-size: 18px;
+		line-height: 0 !important;
+		width: 95%;
+	}
+	#title {
+		padding: 20px 0 0 15px !important;
+		width: 85% !important;
+	}
+	.logo {
+		height: 125px;
+		text-align: center;
+	}
+	#l-col {
+		border-bottom: thin solid #eaeaea;
+		margin-bottom: 25px;
+		padding: 0 0 0 26px !important;
+	}
+	#vote {
+    margin: 5px auto;
+		background: #237fc3;
+		border: none;
+		color: #fff;
+		float: none;
+		font-size: 16px;
+		height: 35px;
+		margin-right: 40px;
+		width: 92%;
+  }
+	#logo1, #logo3 {
+		margin: 0 5px 0 5px !important;
+	}
+	.slide1 {
+		background: url(http://www.esri.com/~/media/B425FBC7BBFE479188F73AEC58384BD0) no-repeat;
+		width: 100%;
+	}
+	.slide2 {
+		background: url(http://www.esri.com/~/media/3815AA0DD7444D7C9D306E7AB0135E9D) no-repeat;
+		width: 100%;
+	}
+	.slide3 {
+		background: url(http://www.esri.com/~/media/86977C1B988A4C099393B61F2E75CCF0) no-repeat;
+		width: 100%;
+	}
+	.slide4 {
+		background: url(http://www.esri.com/~/media/3EF2401FE53441A39C6D4055A6E55A3D) no-repeat;
+		width: 100%;
+	}
+	.logo.img1 {
+		background-position: -15px -21px !important;
+	}
+	.logo.img2 {
+		background-position: -202px -10px !important;
+	}
+	.logo.img3 {
+		background-position: -407px 0px !important;
+	}
+	.logo.img4 {
+		background-position: -609px -20px !important;
+	}
+	.slide-btn {
+		height: 130px;
+		display: none;
+	}
+	.cta-button {
+		padding: 10px 12px !important;
+		width: 92% !important;
+	}
+	input[type="text"] {
+		width: 90%;
+	}
+	.share, .leaderboard {
+		display: block;
+		width: 100% !important;
+	}
+	.leaderboard {
+		border-top: thin solid #eaeaea;
+	}
+	.leaderboard h3 {
+		padding: 0 0 15px 15px;
+		margin: 25px 0 0 0;
+	}
+	.share .icon {
+		float: left !important;
+	}
+	#error-display .icon .soc {
+		margin: 0 19px !important;
+	}
+	.bar {
+		background: #eaeaea;
+		float: left;
+		height: 100px;
+		margin: 5px 20px;
+		position: relative;
+		width: 15%;
+	}
+	.bar-graph {
+    margin: 0 0 0 45px;
+	}
+	.leaderboard-logos {
+    margin: 0 0 0 50px;
+	}
+	.sm-logo-1 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -6px 0px no-repeat;
+	}
+	.sm-logo-2 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -84px 0px no-repeat;
+	}
+	.sm-logo-3 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -160px 0px no-repeat;
+	}
+	.sm-logo-4 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -238px 5px no-repeat;
+	}
+	.sm-uc-logo {
+		float: left;
+		height: 75px;
+		width: 65px;
+		margin: 10px 12px !important;
+	}
+	.err-disp {
+		margin: 25px auto;
+		padding: 0px;
+		width: 100%;
+	}
+	.header h2 {
+    font-size: 28px !important;
+	}
+}
+
+/*----------------
+------IPHONE------
+----------------*/
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 359px)
+and (orientation: portrait) {
+	#navigation {
+		height: 52px !important;
+		padding-bottom: 0px !important;
+		padding-top: 15px !important;
+	}
+	.logos-wrapper {
+		margin: auto auto;
+		margin-left: -4px;
+		padding: 0px;
+		position: relative;
+		width: 310px !important;
+  }
+	#overlay {
+		height:1250px;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+	}
+	#lightbox {
+		height: 770px !important;
+		top: 92px !important;
+		width: 95% !important;
+	}
+	
+	input[type="text"] {
+		min-height: 25px;
+		margin-bottom: 15px;
+		width: 290px;
+	}
+	.mar-bot-25 {
+		margin-bottom: 5px !important;
+	}
+  br {
+		display: none !important;
+	}
+	.uc-banner h3 {
+		font-size: 12px !important;
+		margin-top: 20px;
+		padding: 0 20px !important;
+		width: 90%;
+	}
+	.uc-content {
+		margin: 30px 0;
+		text-align: center;
+	}
+	.uc-banner .uc-header {
+		margin: 30px 0;
+	}
+	.uc-banner h1 {
+		font-size: 28px;
+		margin-top: -15px;
+		margin-bottom: 25px;
+	}
+	.uc-banner p {
+		font-size: 12px;
+		line-height: 0 !important;
+		width: 100%;
+	}
+	#title {
+		padding: 20px 0 0 15px !important;
+		width: 85% !important;
+	}
+	.logo {
+		height: 125px;
+		text-align: center;
+	}
+	#logo1, #logo3 {
+		margin: 0 2px 0 0px !important;
+	}
+	#l-col {
+		border-bottom: thin solid #eaeaea;
+		margin-bottom: 25px;
+		padding: 0 0 0 26px !important;
+	}
+	.choose-wrap {
+		margin: auto auto;
+		padding: 10px 0;
+		width: 40% !important;
+	}
+	#vote {
+    margin: 5px auto;
+		background: #237fc3;
+		border: none;
+		color: #fff;
+		float: none;
+		font-size: 16px;
+		height: 35px;
+		margin-right: 40px;
+		width: 92%;
+  }
+	
+	.slide1 {
+		background: url(http://www.esri.com/~/media/B425FBC7BBFE479188F73AEC58384BD0) no-repeat;
+		width: 100%;
+	}
+	.slide2 {
+		background: url(http://www.esri.com/~/media/3815AA0DD7444D7C9D306E7AB0135E9D) no-repeat;
+		width: 100%;
+	}
+	.slide3 {
+		background: url(http://www.esri.com/~/media/86977C1B988A4C099393B61F2E75CCF0) no-repeat;
+		width: 100%;
+	}
+	.slide4 {
+		background: url(http://www.esri.com/~/media/3EF2401FE53441A39C6D4055A6E55A3D) no-repeat;
+		width: 100%;
+	}
+
+	.logo.img1 {
+		background-position: -26px -21px;
+	}
+	.logo.img2 {
+		background-position: -225px -10px;
+	}
+	.logo.img3 {
+		background-position: -407px 0px;
+	}
+	.logo.img4 {
+		background-position: -632px -20px;
+	}
+	
+	.slide-btn {
+		height: 130px;
+		display: none;
+	}
+	.cta-button {
+		padding: 10px 12px !important;
+		width: 92% !important;
+	}
+	.logo-box {
+		padding: 1px;
+		width: 150px !important;
+	}
+	input[type="text"] {
+		width: 90%;
+	}
+	.share, .leaderboard {
+		display: block;
+		width: 100% !important;
+	}
+	.leaderboard {
+		border-top: thin solid #eaeaea;
+	}
+	.leaderboard h3 {
+		padding: 0 0 15px 15px;
+		margin: 25px 0 0 0;
+	}
+	.share .icon {
+		float: left !important;
+	}
+	#error-display .icon .soc {
+		margin: 0 9px !important;
+	}
+	.bar {
+		background: #eaeaea;
+		float: left;
+		height: 100px;
+		margin: 5px 20px;
+		position: relative;
+		width: 18%;
+	}
+	#bar1 {
+		left:-11px;
+		bottom:-5px;
+	}
+	#bar2 {
+		left:63px;
+		bottom:-5px;
+	}
+	#bar3 {
+		left:136px;
+		bottom:-5px;
+	}
+	#bar4 {
+		left:210px;
+		bottom:-5px;
+	}
+	.sm-logo-1 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -6px 0px no-repeat;
+	}
+	.sm-logo-2 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -84px 0px no-repeat;
+	}
+	.sm-logo-3 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -160px 0px no-repeat;
+	}
+	.sm-logo-4 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -238px 5px no-repeat;
+	}
+	.sm-uc-logo {
+		float: left;
+		height: 75px;
+		width: 65px;
+		margin: 10px 4px !important;
+	}
+	.soc {
+    margin: 0px !important;
+   }
+	.err-disp {
+		margin: 25px auto;
+		padding: 0px;
+		width: 100%;
+	}
+	.header h2 {
+    font-size: 28px !important;
+	}
+}
+
+/*----------------
+-----ANDROID------
+----------------*/
+@media only screen 
+and (min-width : 360px) 
+and (max-width : 568px) {
+	.logos-wrapper {
+		margin: auto auto;
+		margin-left: -10px;
+		padding: 0px;
+		position: relative;
+		width: 358px !important;
+  }
+	.logo-box {
+		padding: 1px;
+		width: 170px !important;
+	}
+	#logo1, #logo3 {
+		margin: 0 2px 0 6px !important;
+	}
+	#overlay {
+		height:1250px;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+	}
+	#lightbox {
+		height: 770px !important;
+		top: 92px !important;
+		width: 95% !important;
+	}
+	input[type="text"] {
+		min-height: 25px;
+		margin-bottom: 15px;
+		width: 290px;
+	}
+	.mar-bot-25 {
+		margin-bottom: 5px;
+	}
+  br {
+		display: none !important;
+	}
+	.uc-banner h3 {
+		font-size: 16px !important;
+		margin-top: 25px;
+		padding: 0 20px !important;
+	}
+	.uc-content {
+		margin: 30px 0;
+		text-align: center;
+	}
+	.uc-banner {
+		margin-top: -25px;
+	}
+	.uc-banner .uc-header {
+		margin: -80px 0 30px 0;
+	}
+	.uc-banner h1 {
+		font-size: 28px;
+		margin-bottom: 15px;
+	}
+	.uc-banner p {
+		font-size: 12px;
+		line-height: 0 !important;
+		width: 95%;
+	}
+	#title {
+		padding: 20px 0 0 15px !important;
+		width: 85% !important;
+	}
+	.logo {
+		height: 125px;
+		text-align: center;
+	}
+	#l-col {
+		border-bottom: thin solid #eaeaea;
+		margin-bottom: 25px;
+		padding: 0 0 0 26px !important;
+	}
+	.choose-wrap {
+		margin: auto auto;
+		padding: 10px 0;
+		width: 52%;
+	}
+	#vote {
+    margin: 5px auto;
+		background: #237fc3;
+		border: none;
+		color: #fff;
+		float: none;
+		font-size: 16px;
+		height: 35px;
+		margin-right: 40px;
+		width: 92%;
+  }
+	
+	.slide1 {
+		background: url(http://www.esri.com/~/media/B425FBC7BBFE479188F73AEC58384BD0) no-repeat;
+		width: 100%;
+	}
+	.slide2 {
+		background: url(http://www.esri.com/~/media/3815AA0DD7444D7C9D306E7AB0135E9D) no-repeat;
+		width: 100%;
+	}
+	.slide3 {
+		background: url(http://www.esri.com/~/media/86977C1B988A4C099393B61F2E75CCF0) no-repeat;
+		width: 100%;
+	}
+	.slide4 {
+		background: url(http://www.esri.com/~/media/3EF2401FE53441A39C6D4055A6E55A3D) no-repeat;
+		width: 100%;
+	}
+
+	.logo.img1 {
+		background-position: -15px -21px;
+	}
+	.logo.img2 {
+		background-position: -215px -10px;
+	}
+	.logo.img3 {
+		background-position: -407px 0px;
+	}
+	.logo.img4 {
+		background-position: -621px -20px;
+	}
+	
+	.slide-btn {
+		height: 130px;
+		display: none;
+	}
+	.cta-button {
+		padding: 10px 12px !important;
+		width: 92% !important;
+	}
+	
+	input[type="text"] {
+		width: 90%;
+	}
+	.share, .leaderboard {
+		display: block;
+		width: 100% !important;
+	}
+	.leaderboard {
+		border-top: thin solid #eaeaea;
+	}
+	.leaderboard h3 {
+		padding: 0 0 15px 15px;
+		margin: 25px 0 0 0;
+	}
+	.share .icon {
+		float: left !important;
+	}
+	#error-display .icon .soc {
+		margin: 0 16px !important;
+	}
+	.bar {
+		background: #eaeaea;
+		float: left;
+		height: 100px;
+		margin: 5px 20px;
+		position: relative;
+		width: 15%;
+	}
+	.sm-logo-1 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -6px 0px no-repeat;
+	}
+	.sm-logo-2 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -84px 0px no-repeat;
+	}
+	.sm-logo-3 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -160px 0px no-repeat;
+	}
+	.sm-logo-4 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -238px 5px no-repeat;
+	}
+	.sm-uc-logo {
+		float: left;
+		height: 75px;
+		width: 65px;
+		margin: 10px 12px !important;
+	}
+	.soc {
+    margin: 0 7px !important;
+   }
+	.err-disp {
+		margin: 25px auto;
+		padding: 0px;
+		width: 100%;
+	}
+	.header h2 {
+    font-size: 28px !important;
+	}
+}
+
+/*----------------
+-----ANDROID------
+----------------*/
+@media only screen 
+and (min-width : 630px) 
+and (max-width : 640px)
+and (orientation: landscape) {
+	#navigation {
+		height: 52px !important;
+		padding-bottom: 0px !important;
+		padding-top: 15px !important;
+	}
+	.logos-wrapper {
+		margin: auto auto;
+		margin-left: -7px;
+		padding: 0px;
+		position: relative;
+		width: 630px !important;
+  }
+	.logo-box {
+		width: 150px !important;
+	}
+	#logo1 {
+		margin: 0px !important;
+	}
+	#logo3 {
+		margin: 0 !important;
+	}
+	#overlay {
+		height:1250px;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+	}
+	#lightbox {
+		height: 770px !important;
+		top: 92px !important;
+		width: 95% !important;
+	}
+	input[type="text"] {
+		min-height: 25px;
+		margin-bottom: 15px;
+		width: 290px;
+	}
+	.mar-bot-25 {
+		margin-bottom: 0px;
+	}
+  br {
+		display: none !important;
+	}
+	#banner {
+		height: 200px;
+		overflow: hidden;
+	}
+	.uc-banner {
+		background: #f7f7f7 url(http://www.esri.com/~/media/2B093C860120405C98C1DAA89E8716BF) top center no-repeat;
+		height: 200px !important;
+		text-align: center;
+		width: 100%;
+	}
+	.uc-banner h3 {
+		font-size: 24px !important;
+		margin-top: 30px;
+		padding: 0 0 15px 20px !important;
+	}
+	.uc-content {
+		margin: 30px 0;
+		text-align: center;
+	}
+	.uc-banner .uc-header {
+		margin: 0px 0 30px 0;
+	}
+	.uc-banner h1 {
+		font-size: 28px;
+	}
+	.uc-banner p {
+		font-size: 18px;
+		line-height: 0 !important;
+	}
+	#title {
+		padding: 20px 0 0 15px !important;
+		width: 85% !important;
+	}
+	.logo {
+		height: 125px;
+		text-align: center;
+	}
+	#l-col {
+		border-bottom: thin solid #eaeaea;
+		margin-bottom: 25px;
+		padding: 0 0 0 26px !important;
+	}
+	.choose-wrap {
+		margin: auto auto;
+		padding: 10px 0;
+		width: 40%;
+	}
+	#vote {
+    margin: 5px auto;
+		background: #237fc3;
+		border: none;
+		color: #fff;
+		float: none;
+		font-size: 16px;
+		height: 35px;
+		margin-right: 40px;
+		width: 92%;
+  }
+	
+	.slide1 {
+		background: url(http://www.esri.com/~/media/B425FBC7BBFE479188F73AEC58384BD0) no-repeat;
+		width: 100%;
+	}
+	.slide2 {
+		background: url(http://www.esri.com/~/media/3815AA0DD7444D7C9D306E7AB0135E9D) no-repeat;
+		width: 100%;
+	}
+	.slide3 {
+		background: url(http://www.esri.com/~/media/86977C1B988A4C099393B61F2E75CCF0) no-repeat;
+		width: 100%;
+	}
+	.slide4 {
+		background: url(http://www.esri.com/~/media/3EF2401FE53441A39C6D4055A6E55A3D) no-repeat;
+		width: 100%;
+	}
+
+	.logo.img1 {
+		background-position: -25px -21px !important;
+	}
+	.logo.img2 {
+		background-position: -215px -10px;
+	}
+	.logo.img3 {
+		background-position: -407px 0px;
+	}
+	.logo.img4 {
+		background-position: -621px -20px;
+	}
+	
+	.slide-btn {
+		height: 130px;
+		display: none;
+	}
+	.cta-button {
+		padding: 10px 12px !important;
+		width: 92% !important;
+	}
+
+	input[type="text"] {
+		width: 90%;
+	}
+	.share, .leaderboard {
+		display: block;
+		width: 100% !important;
+	}
+	.leaderboard {
+		border-top: thin solid #eaeaea;
+	}
+	.leaderboard h3 {
+		padding: 0 0 15px 15px;
+		margin: 25px 0 0 0;
+	}
+	.share .icon {
+		float: left !important;
+	}
+	#error-display .icon .soc {
+		margin: 0 16px !important;
+	}
+	.bar {
+		background: #eaeaea;
+		float: left;
+		height: 100px;
+		margin: 5px 20px;
+		position: relative;
+		width: 15%;
+	}
+	.sm-logo-1 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -6px 0px no-repeat;
+	}
+	.sm-logo-2 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -84px 0px no-repeat;
+	}
+	.sm-logo-3 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -160px 0px no-repeat;
+	}
+	.sm-logo-4 {
+		background: url(http://www.esri.com/~/media/228E4E86FB714E5B80F3AE9E27170E80) -238px 5px no-repeat;
+	}
+	.sm-uc-logo {
+		float: left;
+		height: 75px;
+		width: 65px;
+		margin: 10px 12px !important;
+	}
+	.soc {
+    margin: 0 7px !important;
+   }
+	.err-disp {
+		margin: 25px auto;
+		padding: 0px;
+		width: 100%;
+	}
+	.header h2 {
+    font-size: 28px !important;
+	}
+}
+
+#fname-err-feedback {
+	color: #f00;
+	display: none;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 0 10px;
+	width: 50px;
+}
+#lname-err-feedback {
+	color: #f00;
+	display: none;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 0 10px;
+	width: 50px;
+}
+#email-err-feedback {
+	color: #f00;
+	display: none;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 0 10px;
+	width: 175px;
+}

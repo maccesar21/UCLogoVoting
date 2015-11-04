@@ -1,0 +1,26 @@
+@import url("http://www.esri.com/styles/reset.css"); /*Resets all margins, padding, etc. for all HTML tags to default*/
+@import url("http://www.esri.com/styles/includes/font.css");
+@import url("http://www.esri.com/styles/960.css"); /*960 grid styles (i.e. container 12, grid 1 - 12)*/
+@import url("http://www.esri.com/styles/navbar_3col.css");
+@import url("http://www.esri.com/styles/includes/section-topper.css"); /*Styles for the banners and banner headers*/
+@import url("http://www.esri.com/styles/includes/body-columns.css");
+@import url("http://www.esri.com/styles/includes/style.css"); /*Styles most of the general html tags, such as <p>, <ul>, h1-h6, etc.*/
+@import url("http://www.esri.com/styles/dynamicsidenav_new.css"); /*Style information for items with id="dynamicNav" and subitems */
+@import url("http://www.esri.com/styles/includes/tooltip.css");
+@import url("http://www.esri.com/styles/includes/img-frame.css"); /*Style for the image frame (which generally is in the right column in 3 column layouts) */
+@import url("http://www.esri.com/styles/includes/map-box.css");
+@import url("http://www.esri.com/styles/includes/comparison-table.css");
+@import url("http://www.esri.com/styles/includes/filter-table.css"); /*Styles for tables which can be filtered by category or a search field. Contains Pagination and alpha sort features */
+@import url("http://www.esri.com/styles/includes/common-questions.css"); /*Style info for items with "faq" in their id or class */
+@import url("http://www.esri.com/styles/includes/tabs.css"); /*CSS file used anywhere the jQuery UI tabs plugin is present. */
+@import url("http://www.esri.com/styles/includes/buttons.css"); /*New button styles (orange, green and large blue) */
+@import url("http://www.esri.com/styles/includes/esri-buttons.css");
+@import url("http://www.esri.com/styles/includes/list-box.css");
+@import url("http://www.esri.com/styles/includes/footer-small.css"); /*Esri footer with links found at the bottom of every page */
+@import url("http://www.esri.com/styles/includes/various.css"); /*Miscellaneous style information that doesn't fall into other categories. Generally more specific designs */
+@import url("http://www.esri.com/styles/esricore/scripts/colorbox/colorbox.css"); /*Style include for the new lightbox. Mandatory include wherever colorbox is used. */
+@import url("http://www.esri.com/styles/includes/lang-picker.css");
+@import url("http://webapps-cdn.esri.com/CDN/page-templates/general/dynamic-banner-layout.css");
+@import url("http://webapps-cdn.esri.com/CDN/components/responsive/css/centurion-grid_v2.min.css"); /*Centurion grid*/
+@import url("http://www.esri.com/styles/esri-colors.css");
+@import url("http://fast.fonts.com/cssapi/23855eec-5fdf-4594-9898-0113a04bfef0.css");
