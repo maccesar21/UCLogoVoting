@@ -222,32 +222,6 @@ input[type="checkbox"] {
 	text-decoration: underline;
 }
 
-#logo-selected img {
-	height: auto;
-	width: 100%;
-}
-
-#logo-selected {
-	height: 182px;
-	margin: auto auto;
-	padding: 0;
-	overflow: hidden;
-	width: 195px;
-}
-
-.logo-selected-1 {
-	background: url(http://www.esri.com/~/media/CB2F3C1FBCA2487186B7636C5BA18392) -40px -30px no-repeat;
-}
-.logo-selected-2 {
-	background: url(http://www.esri.com/~/media/3988FBC2493249A4BB76A73049DBEF9C) -40px -30px no-repeat;
-}
-.logo-selected-3 {
-	background: url(http://www.esri.com/~/media/5DFC0E249D42401DAA34E13E61C9042E) -40px -32px no-repeat;
-}
-.logo-selected-4 {
-	background: url(http://www.esri.com/~/media/14E171E1AA9146C6AEFF37DF7580DE68) -40px -17px no-repeat;
-}
-
 .cta-button {
 	background: #007ac3;
 	color: #fff;
