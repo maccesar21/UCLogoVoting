@@ -60,11 +60,17 @@ function chooseLogo() {
 		
 	}
 	$('.gray-bar').click(function() {
-		$('.check').removeClass('selected');
+		resetSelected();
 		$(this).find('.check').addClass('selected');
-		//Update lightbox with user selected logo.
-		userSelection($(this).find('.choose').data('selection'));
+		$(this).addClass('add-blue-bg');
+		$(this).find('.choose').addClass('add-white-txt');
 	});
+}
+
+function resetSelected() {
+	$('.check').removeClass('selected');
+	$('.gray-bar').removeClass('add-blue-bg');
+	$('.choose').removeClass('add-white-txt');
 }
 
 function changeLogoSelection() {

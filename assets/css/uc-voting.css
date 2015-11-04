@@ -3,6 +3,9 @@
 ---BANNER---
 ***********/
 
+.uc-banner {
+	background: url('//www.esri.com/~/media/557A585D0BAB4100A43631B8CA01AE99') top center no-repeat;
+}
 .uc-banner .uc-header {
 	margin: 10px 0 30px 0;
 }
@@ -54,15 +57,21 @@
 	background: #eaeaea;
 	width: 100%;
 }
+.add-blue-bg {
+	background: #007ac3;
+}
+.add-white-txt {
+	color: #fff;
+}
 .gray-bar:hover {
+	background: #007ac3;
 	cursor: pointer;
 }
-
 .gray-bar:hover .check {
-	background: url(http://www.esri.com/~/media/B067D6F546A24A2A9373F72F8C72A248) -19px 0px no-repeat;
+	background: url('http://www.esri.com/~/media/B067D6F546A24A2A9373F72F8C72A248') -19px 0px no-repeat;
 }
 .gray-bar:hover .choose {
-	color: #2a7433;
+	color: #fff;
 }
 
 .logo {
@@ -111,12 +120,12 @@
 	float: left;
 }
 .check {
-	background: url(http://www.esri.com/~/media/B067D6F546A24A2A9373F72F8C72A248) 0px 0px no-repeat;
+	background: url('http://www.esri.com/~/media/B067D6F546A24A2A9373F72F8C72A248') 0px 0px no-repeat;
 	height: 20px;
   width: 20px
 }
 .check.selected {
-	background: url(http://www.esri.com/~/media/B067D6F546A24A2A9373F72F8C72A248) -19px 0px no-repeat;
+	background: url('http://www.esri.com/~/media/B067D6F546A24A2A9373F72F8C72A248') -19px 0px no-repeat;
 }
 .choose {
 	float: right;
@@ -125,7 +134,7 @@
 .choose-wrap {
 	margin: auto auto;
 	padding: 13px 0;
-	width: 25%;
+	width: 35%;
 }
 
 .uc-content {
