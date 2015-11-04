@@ -55,6 +55,7 @@
 
 .gray-bar {
 	background: #eaeaea;
+	transition: all .25s ease-out;
 	width: 100%;
 }
 .add-blue-bg {
